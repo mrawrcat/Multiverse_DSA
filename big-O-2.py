@@ -7,3 +7,5 @@ We have an array that contains at least one element and at most 105 elements.
 We want to return true if there are any duplicates and false 
 if there are no duplicates. 
 '''
+
+
