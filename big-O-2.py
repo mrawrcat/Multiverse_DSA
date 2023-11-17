@@ -7,7 +7,7 @@ We have an array that contains at least one element and at most 105 elements.
 We want to return true if there are any duplicates and false 
 if there are no duplicates. 
 
-Pseudocode:
+Pseudocode planning:
 First declare the function with a parameter that accepts an array.
 Check if the array has only one element. If it does return false.
 (One element = no duplicates so every element is distinct)
@@ -17,5 +17,22 @@ If there is a corresponding value then output true.
 If there is not add the number in the hash map.
 when we get to the end return false 
 '''
+
+def containsDuplicate(array):
+    arr.sort() # sorting the array/list allows us to find duplicates faster
+    if len(array) == 1:
+        return False
+    else:
+        hashmap_dictionary = {}
+        for element in array:
+            if(element in array):
+                return True
+            else:
+                hashmap_dictionary[element] = array.index(element)
+                
+        return False
+            
+
+        
 
 
