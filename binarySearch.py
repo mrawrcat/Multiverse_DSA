@@ -12,7 +12,7 @@ Constraints:
 All the integers in nums are unique.
 nums is sorted in ascending order.
 
-Summary/Explaination:
+Summary/Explanation:
 
 A binary search attempts to more efficiently search for a unique integer
 by reducing the size of the array so that we need to search through less objects
