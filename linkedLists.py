@@ -11,4 +11,14 @@ The value of the given node should not exist in the linked list.
 The number of nodes in the linked list should decrease by one.
 All the values before node should be in the same order.
 All the values after node should be in the same order.
+
+Constraints:
+
+The number of the nodes in the given list is in the range [2, 1000].
+-1000 <= Node.val <= 1000
+The value of each node in the list is unique.
+The node to be deleted is in the list and is not a tail node.
 '''
+
+def listNode(val, next = None):
+    
