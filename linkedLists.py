@@ -49,4 +49,4 @@ class Solution(object):
         # set this node's next to next node's next
         node.next = node.next.next
         # if we want to garbage collect set next node's next to None
-        node.next.next 
+        node.next.next = None
