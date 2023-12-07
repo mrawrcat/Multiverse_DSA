@@ -18,7 +18,10 @@ The number of the nodes in the given list is in the range [2, 1000].
 -1000 <= Node.val <= 1000
 The value of each node in the list is unique.
 The node to be deleted is in the list and is not a tail node.
-'''
 
-def listNode(val, next = None):
-    
+Psuedocode planning
+
+To remove a node from the linked list we should first find our node by iterating through the
+linkedList to find the node we are deleting. When we find our node, we assign the next of
+the previous node to the next of the node after our current node.
+'''
